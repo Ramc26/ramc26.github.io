@@ -207,3 +207,17 @@ footer { text-align: center; }
     padding-bottom: 141.4%; /* A4 Portrait Aspect Ratio */
   }
 }
+
+/* === LinkedIn Badge Styling === */
+.linkedin-badge-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.linkedin-badge-container:hover {
+  opacity: 1;
+  transform: scale(1.05); /* Pop up effect on hover */
+}
